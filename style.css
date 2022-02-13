@@ -94,4 +94,30 @@ body{
         top:  50%;
         right: 15%;
     }
+
+    .gracias{
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .pregunta{
+        font-size: 4.2rem;
+    }
+
+    .btn{
+        width: 12rem;
+        padding: 2rem;
+        font-size: 3rem;
+    }
+
+    #si{
+        top: 55%;
+        left: 10%;
+    }
+    
+    #no{
+        top:  55%;
+        right: 10%;
+    }
 }
