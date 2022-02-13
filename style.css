@@ -56,6 +56,8 @@ body{
 
 /**** SI.HTML / NO.HTML ****/
 .gracias{
+    width: auto;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,13 +70,13 @@ body{
 
 @media screen and (max-width: 800px) {
     .pregunta{
-        font-size: 4.4rem;
+        font-size: 4.2rem;
     }
 
     .btn{
-        width: 13rem;
-        padding: 2.5rem;
-        font-size: 3.5rem;
+        width: 12rem;
+        padding: 2rem;
+        font-size: 3rem;
     }
 
     .btn:hover{
@@ -86,18 +88,22 @@ body{
     }
 
     #si{
-        top: 50%;
+        top: 55%;
         left: 15%;
     }
     
     #no{
-        top:  50%;
+        top:  55%;
         right: 15%;
     }
 
-    .gracias{
-        width: auto;
+    .img-gracias{
+        width: 100vw;
+        height: auto;
+        justify-content: center;
+        align-items: center;
     }
+    
 }
 
 @media screen and (max-width: 400px) {
